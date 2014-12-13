@@ -1,0 +1,314 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html  xmlns:wb="http://open.weibo.com/wb"  slick-uniqueid="1">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <link  href="{:APP_TMPL_PATH}images/logo.ico"  type="image/icon"  rel="shortcut icon">
+    <title> {:C('sitename')} </title>
+    <meta  name="keywords"  content="{:C('keyword')}">
+    <meta  name="description"  content="{:C('description')}">
+
+    <link  type="text/css"  rel="stylesheet"  href="{:APP_TMPL_PATH}css/main.css">
+    <link  type="text/css"  rel="stylesheet"  href="{:APP_TMPL_PATH}css/jplayer.blue.monday.css">
+    <link  type="text/css"  rel="stylesheet"  href="{:APP_TMPL_PATH}css/voice2.css">
+
+    <script  type="text/javascript"  src="{:APP_TMPL_PATH}js/analytics.js"></script>
+    <script src="http://tjs.sjs.sinajs.cn/open/api/js/wb.js" type="text/javascript" charset="utf-8"></script>
+    <script  type="text/javascript"  src="{:APP_TMPL_PATH}js/jquery.min.js"></script>
+    <script  type="text/javascript"  src="{:APP_TMPL_PATH}js/jquery.jplayer.min.js"></script>
+    <script  type="text/javascript"  src="{:APP_TMPL_PATH}js/util.js"></script>
+    <script  type="text/javascript"  src="{:APP_TMPL_PATH}js/jquery.base64.js"></script>
+    <script  type="text/javascript"  src="{:APP_TMPL_PATH}js/bundle.js"></script>
+    <script  type="text/javascript"  src="{:APP_TMPL_PATH}js/iframeWidget.js"></script>
+
+
+</head>
+
+
+<body>
+
+<include file="./UI/Home/header.html" />
+
+<style  type="text/css">
+    #bottom-contents #friendly-link{display:block;}
+</style>
+
+<div  id="main"  class="min-height">
+<div  id="web_content">
+<div  id="second-nav">
+    <ul>
+        <li>
+            <a  href="{:C('siteurl')}/"  class="underline">
+                精选
+            </a>
+        </li>
+        <li>
+            <a  href="{:C('siteurl')}/hotpic/"  class="">
+                近期热门
+            </a>
+        </li>
+        <li>
+            <a  href="{:C('siteurl')}/new-p/"  class="">
+                最新
+            </a>
+        </li>
+        <li  style="border:0px;margin-right:0px;padding-right:0px;">
+            <a  href="{:C('siteurl')}/history-p/"  class="">
+                穿越
+            </a>
+        </li>
+    </ul>
+    <span  class="slash_line"  style="width:700px;"></span>
+</div>
+<div  class="web_content_left">
+
+    <volist name="lists" id="vo">
+        <div  class="web_left floatl" >
+            <div  class="white_border">
+                <div  class="user_info">
+                    <ul>
+                        <li  style="height:30px;">
+                            <img  src=""  width="30px;"  height="30px;">
+                        </li>
+                        <li  class="user_name">
+                            <p>{$vo.publisher}</p>
+                        </li>
+                        <li>
+                            <p  class="time">发布于{$vo.pubtime}</p>
+                        </li>
+                    </ul>
+                </div>
+
+                <div  class="web_conter clear" >
+                    <div  class="web_list_left floatl"  style="clear:both;margin-bottom:-3px;">
+                        <p  class="web_size"  id="title-4669467"  style="WORD-BREAK: break-all;">{$vo.description}</p>
+                        <p  style="margin-top:20px;">
+                            <a  target="_blank"  href="{:C('siteurl')}/detail-4669467.html">
+                                <img  style="width:281px;"  src="/Uploads/{$vo.picurl}"  id="pic-4669467">
+                            </a>
+                        </p>
+                    </div>
+                    <div  class="budejie_mutual clear">
+                        <ul  class="floatl">
+                            <li  class="no_hover">
+                                <a   class="no_love">
+                                    <span  id="loveNum-4669467">{$vo.ding}</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a   class="no_cai">
+                                    <span  id="noloveNum-4669467">{$vo.cai}</span>
+                                </a>
+                            </li>
+                            <li  style="height:50px;">
+                                <a   class="bookmark"  style="display:none;">
+                                    <span  id="bookmark-4669467">&nbsp;&nbsp;</span>
+                                </a>
+                                <a   class="no_bookmark">
+                                    <span  id="no_bookmark-4669467">&nbsp;&nbsp;</span>
+                                </a>
+                            </li>
+                        </ul>
+                        <ul  class="floatr">
+                            <li>
+                                <a  class="share-content">
+                                    <span  id="repost-4669467">25</span>
+                                </a>
+                            </li>
+                            <li  style="margin-right:0px;">
+                                <a  target="_blank"  href="{:C('siteurl')}/detail-4669467.html#main_conter"  class="comment_button">
+                                    <span>17</span>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div  class="budejie_share">
+                    <a  class="weibo" >新浪微博</a>
+                    <a  class="renren" >人人网</a>
+                    <a  class="tqq" >腾讯微博</a>
+                    <a  class="qzone" >QQ空间</a>
+                </div>
+            </div>
+        </div>
+    </volist>
+
+    <div  id="pages">
+
+        <p  class="budejie_ye"  style="text-align:left;">
+            {$page}
+        </p>
+        <img  src="{:APP_TMPL_PATH}images/download.png"   style="float:right; cursor:pointer;margin-top:-56px;"  target="_blank">
+
+    </div>
+</div>
+<input  type="hidden"  value="0"  id="moveToDiv">
+
+<div  class="web_content_right">
+
+    <div  class="web_right_down">
+        <div  class="white_border"  style="height:424px;">
+            <div  class="web-down-top"></div>
+            <span  class="code_prompt">扫描二维码，用手机看不得姐</span>
+            <div  class="web-down-right">
+                <ul  class="ph_dow">
+                    <li  class="And"><span>Android手机客户端</span><a  href="{:C('siteurl')}/budejie/download.php"  target="_blank"></a></li>
+                    <li  class="iPh"><span>iPhone手机客户端</span><a  href="https://itunes.apple.com/cn/app/bai-si-bu-de-jie/id485531486?mt=8"  target="_blank"  s=""></a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <div  class="web_right_ad">
+        广告位
+    </div>
+
+    <div  class="float-wrapper">
+        <div  class="web_right_down"  id="focus_us">
+            <div  class="white_border">
+                <div  id="weixin-qrcode">
+                    <p><img  src="{:APP_TMPL_PATH}images/weixin_qrcode.jpg"></p>
+                    <p  id="weixin-icon"><span  id="weixin-img"><img  src="{:APP_TMPL_PATH}images/weixin_icon.png"></span><span  id="weixin-info">关注不得姐微信帐号</span></p>
+                </div>
+                <div  id="focus_num">
+                    <ul>
+                        <li>
+                            <wb:follow-button uid="2991975565" type="red_1" width="67" height="24" ></wb:follow-button>
+                        </li>
+                        <li>
+                            <wb:follow-button uid="2991975565" type="red_2" width="136" height="24" ></wb:follow-button>
+                        </li>
+                        <li>
+                            <iframe src="http://follow.v.t.qq.com/index.php?c=follow&a=quick&appkey=801502203&sign=9878730b&v=2&name=wangbo413&style=5&t=1399030419848&f=1" frameborder="0" scrolling="auto" width="178" height="24" marginwidth="0" marginheight="0" allowtransparency="true"></iframe>
+                        </li>
+
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div  class="web_right_ad">
+            广告位
+        </div>
+        <div  class="web_right_ad">
+            广告位
+        </div>
+    </div>
+</div>
+</div>
+</div>
+
+<div  class="float-bottom">
+    <img  src="{:APP_TMPL_PATH}images/bottom.jpg"  style="width:100%;">
+</div>
+
+
+
+<p  id="ued_gotop"  class="budejie_scroll"  style="display: none;">
+    <a  href="{:C('siteurl')}/#"><img  src="{:APP_TMPL_PATH}images/budejie_ding.jpg"></a>
+</p>
+
+<include file="./UI/Home/footer.html" />
+
+
+<script>
+
+    jQuery(document).ready(function($) {
+
+        jQuery.each(jQuery('.jp-jplayer'), function(i, it) {
+            var flag = 0;
+
+            jQuery(it).jPlayer({
+                swfPath: g_jp_url + "/ws/www/js",
+                supplied: "mp3",
+                wmode: "window",
+                smoothPlayBar: false,
+                keyEnabled: true,
+                cssSelectorAncestor: "#jp_container_" + jQuery(this).attr('data-id'),
+
+                ready: function () {
+                    jQuery(this).jPlayer("setMedia", {
+                        mp3: $.base64.atob(jQuery(this).attr("data-src"))
+                    });
+
+                    jQuery(this).next().children('.jp-type-single').hide();
+                    jQuery(this).next().children('.jp-controls').css('left','180px');
+                    var this_=	jQuery(this);
+                    jQuery(this).prev('p').children('a').click(function (){
+                        if(this_.next().children('ul').children('li').children('.jp-pause').is(':visible')){
+
+                            this_.next().children('ul').children('li').children('.jp-pause').click()
+
+                        }else{
+
+                            this_.next().children('ul').children('li').children('.jp-play').click();
+                        }
+                        return false;
+                    });
+
+                    if (is_ie()) {
+                        var vt = jQuery(this).attr('data-vtime');
+                        jQuery('#st_' + jQuery(this).attr('data-id')).text(fmt_voice_time(vt-1));
+                    }
+                },
+
+                play: function() { // To avoid multiple jPlayers playing together.
+                    jQuery(this).jPlayer("pauseOthers");
+                    jQuery(this).next().children('.jp-type-single').show();
+                    jQuery(this).next().children('.jp-controls').css('left','0px').parent().css('margin-bottom','-50px');
+                    jQuery(this).next().find('.show_time').hide();
+
+                    if (flag == 0) {
+                        var userid= $(it).attr('userid');
+                        var pid = $(it).attr('data-id');
+
+                        $.getJSON('http://api.budejie.com/api/api_open.php?c=voice&a=stat&pid='+ pid +'&userid='+ userid +'&flag=1&callback=?', function(data) {
+                            if (data['code'] == 0) {
+                                var pc = parseInt($('#play_count_' + pid).text());
+                                $('#play_count_' + pid).text(++pc);
+                            }
+                        });
+                    }
+
+                    flag = 1;
+                },
+
+                ended: function (){
+                    flag = 0;
+                    jQuery(this).next().children('.jp-type-single').hide();
+                    jQuery(this).next().children('.jp-controls').css('left','170px').parent().css('margin-bottom','0px');
+                    jQuery(this).next().find('.show_time').show();
+                }
+            });
+
+        });
+
+    });
+
+
+    //提示用户没有穿越数据
+    //右侧滚动广告
+    right_ad_float();
+
+    //分享功能
+    content_shareing(140);
+</script>
+
+
+<script>jQuery.noConflict();</script>
+<script>
+
+    //回顶按钮
+    (function($){
+        back_to_top();
+        $(window).scroll(back_to_top);
+        function back_to_top(){
+            var $top     = $(window).scrollTop();
+
+            if($top > 500){
+                $('#ued_gotop').show();
+            }else{
+                $('#ued_gotop').hide();
+            }
+        }
+    })(jQuery)
+</script>
+</body></html>

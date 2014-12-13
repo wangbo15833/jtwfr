@@ -1,0 +1,578 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<!-- saved from url=(0023)http://www.budejie.com/ -->
+<html  xmlns:wb="http://open.weibo.com/wb"  slick-uniqueid="1">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <link  href="./百思不得姐官网-搞笑图片,内涵段子,漫画,冷笑话,色系军团,成人笑话分享社区_files/logo.ico"  type="image/icon"  rel="shortcut icon">
+    <title> {:C('sitename')} </title>
+    <meta  name="keywords"  content="{:C('keyword')}">
+    <meta  name="description"  content="{:C('content')}">
+
+    <link  type="text/css"  rel="stylesheet"  href="{:C('rootdir')}/UI/Index/css/main.css">
+    <link  type="text/css"  rel="stylesheet"  href="{:C('rootdir')}/UI/Index/css/jplayer.blue.monday.css">
+    <link  type="text/css"  rel="stylesheet"  href="{:C('rootdir')}/UI/Index/css/voice2.css">
+
+    <script  type="text/javascript"  src="{:C('rootdir')}/UI/Index/js/analytics.js"></script>
+    <script src="http://tjs.sjs.sinajs.cn/open/api/js/wb.js" type="text/javascript" charset="utf-8"></script>
+    <script  type="text/javascript"  src="{:C('rootdir')}/UI/Index/js/jquery.min.js"></script>
+    <script  type="text/javascript"  src="{:C('rootdir')}/UI/Index/js/jquery.jplayer.min.js"></script>
+    <script  type="text/javascript"  src="{:C('rootdir')}/UI/Index/js/util.js"></script>
+    <script  type="text/javascript"  src="{:C('rootdir')}/UI/Index/js/jquery.base64.js"></script>
+    <script  type="text/javascript"  src="{:C('rootdir')}/UI/Index/js/m.js"></script>
+    <script  type="text/javascript"  src="{:C('rootdir')}/UI/Index/js/bundle.js"></script>
+    <script  type="text/javascript"  src="{:C('rootdir')}/UI/Index/js/iframeWidget.js"></script>
+
+
+</head>
+
+
+<body>
+<div  id="BAIDU_DUP_fp_wrapper"  style="position: absolute; left: -1px; bottom: -1px; z-index: 0; width: 0px; height: 0px; overflow: hidden; visibility: hidden; display: none;">
+    <iframe  id="BAIDU_DUP_fp_iframe"  src="./百思不得姐官网-搞笑图片,内涵段子,漫画,冷笑话,色系军团,成人笑话分享社区_files/o.htm"  style="width: 0px; height: 0px; visibility: hidden; display: none;"></iframe></div><iframe  id="sina_anywhere_iframe"  style="display: none;"></iframe>
+<div  id="cboxOverlay"  style="display:none;"></div>
+<div  id="cboxLoadedContent"  style="display:none;">
+    <div  id="close-cover" >
+        <img  src="./百思不得姐官网-搞笑图片,内涵段子,漫画,冷笑话,色系军团,成人笑话分享社区_files/close_cover.jpg" >
+    </div>
+    <div  id="login-info">亲，可以通过合作账号快速登录百思不得姐哦，无需注册。</div>
+    <div  class="login-icons">
+        <ul>
+            <li>
+                <a   class="login_qq"><span>QQ登录</span></a>
+            </li>
+            <li>
+                <a   class="login_sina"><span>新浪微博登录</span></a>
+            </li>
+            <li>
+                <a   class="login_tqq"><span>腾讯微博登录</span></a>
+            </li>
+        </ul>
+    </div>
+    <div  id="login-download">
+        手机客户端下载：
+        <a  href="{:C('siteurl')}/budejie/download.php"  target="_black;"  id="download-androd"  class="login_download">安卓下载</a>
+        <a  href="https://itunes.apple.com/cn/app/bai-si-bu-de-jie/id485531486?mt=8"  target="_black;"  id="download-ios"  class="login_download">ios下载</a>
+    </div>
+</div>
+
+<div  class="web_logo"  style=" background-color:#AC2718;">
+    <div  class="web_nav">
+        <p><a  href="{:C('siteurl')}/"  title="交通违法人"><img  src="{:C('rootdir')}/UI/Index/images/logo.png"></a></p>
+
+        <div  id="budejie_nav">
+            <ul>
+                <li  class="budejie_nav_select">
+                    <a  href="{:C('siteurl')}/"  class="current">搞笑图片</a>
+                </li>
+                <li  class="budejie_nav_select">
+                    <a  href="{:C('siteurl')}/duanzi/">内涵段子</a></li>
+                <li  class="budejie_nav_select">
+                    <a  href="{:C('siteurl')}/shengyin/">有声有色</a>
+                </li>
+                <li  class="budejie_nav_select">
+                    <a  href="{:C('siteurl')}/down/">应用下载</a>
+                </li>
+            </ul>
+        </div>
+        <div  id="post_audit">
+            <ul>
+                <li><a  href="{:C('siteurl')}/###"  id="post_au">发帖</a></li>
+                <li><a  href="{:C('siteurl')}/###"  id="shentie">审核</a></li>
+            </ul>
+        </div>
+        <div  id="login_block">
+            <ul>
+                <li  id="login"><a >登录</a></li>
+                <li  id="joinus"><a >注册</a></li>
+            </ul>
+        </div>
+    </div>
+</div>
+<div  id="select_post"  style="left:0;right:0; display:none">
+    <div  class="top_post"><h1>发表帖子</h1><a  href="{:C('siteurl')}/###"  id="close"><img  src="./百思不得姐官网-搞笑图片,内涵段子,漫画,冷笑话,色系军团,成人笑话分享社区_files/close_cover.jpg"></a></div>
+    <ul>
+        <li><a  href="{:C('siteurl')}/tougao/1"><img  src="./百思不得姐官网-搞笑图片,内涵段子,漫画,冷笑话,色系军团,成人笑话分享社区_files/send_duan.jpg"></a></li>
+        <li><a  href="{:C('siteurl')}/tougao/2"><img  src="./百思不得姐官网-搞笑图片,内涵段子,漫画,冷笑话,色系军团,成人笑话分享社区_files/send_image.jpg"></a></li>
+        <li  id="post_voice_top"><a  href="{:C('siteurl')}/tougao/3"><img  src="./百思不得姐官网-搞笑图片,内涵段子,漫画,冷笑话,色系军团,成人笑话分享社区_files/send_voice.jpg"></a></li>
+    </ul>
+</div>
+<div  id="cboxOverlay"  style="display:none"></div>
+<script>
+    // 期望返回的地址 add by zy
+    var g_exp_uri = '';
+
+    //window.onload=function (){
+    document.getElementById("post_au").onclick=function (){
+        document.getElementById("select_post").style.display=document.getElementById("cboxOverlay").style.display='block';
+    }
+    document.getElementById("close").onclick=function (){
+        document.getElementById("select_post").style.display=document.getElementById("cboxOverlay").style.display='none';
+    }
+
+    // 审核登陆
+    document.getElementById("shentie").onclick=function (){
+        var c = getcookie('oauth_user');
+        if (c == '' || c == 'undefined')
+            showlogin('/shentie/');
+        else
+            location.href = '/shentie/';
+        return false;
+    }
+
+    document.getElementById("post_voice_top").onclick=function (){
+        var c = getcookie('oauth_user');
+        if (c == '' || c == 'undefined') {
+            document.getElementById("select_post").style.display=document.getElementById("cboxOverlay").style.display='none';
+            showlogin();
+        } else {
+            location.href = '/tougao/3'
+        }
+        return false;
+    }
+    //}
+
+</script>
+
+<style  type="text/css">
+    #bottom-contents #friendly-link{display:block;}
+</style>
+
+<div  id="main"  class="min-height">
+<div  id="web_content">
+<div  id="second-nav">
+    <ul>
+        <li>
+            <a  href="{:C('siteurl')}/"  class="underline">
+                精选
+            </a>
+        </li>
+        <li>
+            <a  href="{:C('siteurl')}/hotpic/"  class="">
+                近期热门
+            </a>
+        </li>
+        <li>
+            <a  href="{:C('siteurl')}/new-p/"  class="">
+                最新
+            </a>
+        </li>
+        <li  style="border:0px;margin-right:0px;padding-right:0px;">
+            <a  href="{:C('siteurl')}/history-p/"  class="">
+                穿越
+            </a>
+        </li>
+    </ul>
+    <span  class="slash_line"  style="width:700px;"></span>
+</div>
+<div  class="web_content_left">
+
+<div  class="web_left floatl" >
+    <div  class="white_border">
+        <div  class="user_info">
+            <ul>
+                <li  style="height:30px;">
+                    <img  src="./百思不得姐官网-搞笑图片,内涵段子,漫画,冷笑话,色系军团,成人笑话分享社区_files/533e443d82296_mini.jpg"  width="30px;"  height="30px;">
+                </li>
+                <li  class="user_name">
+                    <p>待我有钱时包养你i</p>
+                </li>
+                <li>
+                    <p  class="time">发布于2014-05-02 13:16:02</p>
+                </li>
+            </ul>
+        </div>
+
+        <div  class="web_conter clear" >
+            <div  class="web_list_left floatl"  style="clear:both;margin-bottom:-3px;">
+                <p  class="web_size"  id="title-4669467"  style="WORD-BREAK: break-all;">咦，掉了，就不给你吃，我给我好朋友吃的。</p>
+                <p  style="margin-top:20px;">
+                    <a  target="_blank"  href="{:C('siteurl')}/detail-4669467.html">
+                        <img  style="width:281px;"  src="./百思不得姐官网-搞笑图片,内涵段子,漫画,冷笑话,色系军团,成人笑话分享社区_files/005zEV9Ojw1efig71kus3g307t07kkjl.gif"  id="pic-4669467">
+                    </a>
+                </p>
+            </div>
+            <div  class="budejie_mutual clear">
+                <ul  class="floatl">
+                    <li  class="no_hover">
+                        <a   class="no_love">
+                            <span  id="loveNum-4669467">351</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a   class="no_cai">
+                            <span  id="noloveNum-4669467">47</span>
+                        </a>
+                    </li>
+                    <li  style="height:50px;">
+                        <a   class="bookmark"  style="display:none;">
+                            <span  id="bookmark-4669467">&nbsp;&nbsp;</span>
+                        </a>
+                        <a   class="no_bookmark">
+                            <span  id="no_bookmark-4669467">&nbsp;&nbsp;</span>
+                        </a>
+                    </li>
+                </ul>
+                <ul  class="floatr">
+                    <li>
+                        <a  class="share-content">
+                            <span  id="repost-4669467">25</span>
+                        </a>
+                    </li>
+                    <li  style="margin-right:0px;">
+                        <a  target="_blank"  href="{:C('siteurl')}/detail-4669467.html#main_conter"  class="comment_button">
+                            <span>17</span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div  class="budejie_share">
+            <a  class="weibo" >新浪微博</a>
+            <a  class="renren" >人人网</a>
+            <a  class="tqq" >腾讯微博</a>
+            <a  class="qzone" >QQ空间</a>
+        </div>
+    </div>
+</div>
+
+    <volist name="lists" id="vo">
+        <div  class="web_left floatl" >
+            <div  class="white_border">
+                <div  class="user_info">
+                    <ul>
+                        <li  style="height:30px;">
+                            <img  src="./百思不得姐官网-搞笑图片,内涵段子,漫画,冷笑话,色系军团,成人笑话分享社区_files/533e443d82296_mini.jpg"  width="30px;"  height="30px;">
+                        </li>
+                        <li  class="user_name">
+                            <p>{$vo.publisher}</p>
+                        </li>
+                        <li>
+                            <p  class="time">发布于{$vo.pubtime}</p>
+                        </li>
+                    </ul>
+                </div>
+
+                <div  class="web_conter clear" >
+                    <div  class="web_list_left floatl"  style="clear:both;margin-bottom:-3px;">
+                        <p  class="web_size"  id="title-4669467"  style="WORD-BREAK: break-all;">{$vo.description}</p>
+                        <p  style="margin-top:20px;">
+                            <a  target="_blank"  href="{:C('siteurl')}/detail-4669467.html">
+                                <img  style="width:281px;"  src="{$vo.picurl}"  id="pic-4669467">
+                            </a>
+                        </p>
+                    </div>
+                    <div  class="budejie_mutual clear">
+                        <ul  class="floatl">
+                            <li  class="no_hover">
+                                <a   class="no_love">
+                                    <span  id="loveNum-4669467">{$vo.ding}</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a   class="no_cai">
+                                    <span  id="noloveNum-4669467">{$vo.cai}</span>
+                                </a>
+                            </li>
+                            <li  style="height:50px;">
+                                <a   class="bookmark"  style="display:none;">
+                                    <span  id="bookmark-4669467">&nbsp;&nbsp;</span>
+                                </a>
+                                <a   class="no_bookmark">
+                                    <span  id="no_bookmark-4669467">&nbsp;&nbsp;</span>
+                                </a>
+                            </li>
+                        </ul>
+                        <ul  class="floatr">
+                            <li>
+                                <a  class="share-content">
+                                    <span  id="repost-4669467">25</span>
+                                </a>
+                            </li>
+                            <li  style="margin-right:0px;">
+                                <a  target="_blank"  href="{:C('siteurl')}/detail-4669467.html#main_conter"  class="comment_button">
+                                    <span>17</span>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div  class="budejie_share">
+                    <a  class="weibo" >新浪微博</a>
+                    <a  class="renren" >人人网</a>
+                    <a  class="tqq" >腾讯微博</a>
+                    <a  class="qzone" >QQ空间</a>
+                </div>
+            </div>
+        </div>
+    </volist>
+
+
+
+
+<div  id="pages">
+    <p  class="budejie_ye"  style="text-align:left;">
+        <label>1</label>
+        <a  href="{:C('siteurl')}/2">2</a>
+        <a  href="{:C('siteurl')}/3">3</a>
+        <a  href="{:C('siteurl')}/4">4</a>
+        <label>...</label>
+        <a  href="{:C('siteurl')}/3516">3516</a>
+        <a  href="{:C('siteurl')}/2">下一页</a>
+        <a  href="{:C('siteurl')}/3516">尾页</a>
+    </p>
+    <img  src="./百思不得姐官网-搞笑图片,内涵段子,漫画,冷笑话,色系军团,成人笑话分享社区_files/download.png"   style="float:right; cursor:pointer;margin-top:-56px;"  target="_blank">
+
+</div>                           </div>
+<input  type="hidden"  value="0"  id="moveToDiv">
+
+<div  class="web_content_right">
+
+    <div  class="web_right_down">
+        <div  class="white_border"  style="height:424px;">
+            <div  class="web-down-top"></div>
+            <span  class="code_prompt">扫描二维码，用手机看不得姐</span>
+            <div  class="web-down-right">
+                <ul  class="ph_dow">
+                    <li  class="And"><span>Android手机客户端</span><a  href="{:C('siteurl')}/budejie/download.php"  target="_blank"></a></li>
+                    <li  class="iPh"><span>iPhone手机客户端</span><a  href="https://itunes.apple.com/cn/app/bai-si-bu-de-jie/id485531486?mt=8"  target="_blank"  s=""></a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <div  class="web_right_ad">
+        广告位
+    </div>
+
+    <div  class="float-wrapper">
+        <div  class="web_right_down"  id="focus_us">
+            <div  class="white_border">
+                <div  id="weixin-qrcode">
+                    <p><img  src="{:C('rootdir')}/UI/Index/images/weixin_qrcode.jpg"></p>
+                    <p  id="weixin-icon"><span  id="weixin-img"><img  src="{:C('rootdir')}/UI/Index/images/weixin_icon.png"></span><span  id="weixin-info">关注不得姐微信帐号</span></p>
+                </div>
+                <div  id="focus_num">
+                    <ul>
+                        <li>
+                            <wb:follow-button uid="2991975565" type="red_1" width="67" height="24" ></wb:follow-button>
+                        </li>
+                        <li>
+                            <wb:follow-button uid="2991975565" type="red_2" width="136" height="24" ></wb:follow-button>
+                        </li>
+                        <li>
+                            <iframe src="http://follow.v.t.qq.com/index.php?c=follow&a=quick&name=chenyu198703&style=5&t=1357622049538&f=0" frameborder="0" scrolling="auto" width="125" height="24" marginwidth="0" marginheight="0" allowtransparency="true"></iframe>
+                        </li>
+
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div  class="web_right_ad">
+            广告位
+        </div>
+        <div  class="web_right_ad">
+            广告位
+        </div>
+    </div>
+</div>
+</div>
+</div>
+
+<div  class="float-bottom">
+    <img  src="{:C('rootdir')}/UI/Index/images/bottom.jpg"  style="width:100%;">
+</div>
+
+
+
+<p  id="ued_gotop"  class="budejie_scroll"  style="display: none;">
+    <a  href="{:C('siteurl')}/#"><img  src="{:C('rootdir')}/UI/Index/images/budejie_ding.jpg"></a>
+</p>
+
+<div  id="bottom">
+    <div  id="bottom-contents">
+        <div  id="our-info">
+            <ul>
+                <li>
+                    <a  href="http://www.spriteapp.com/products"  target="_blank">
+                        关于百思不得姐&nbsp;&nbsp;|&nbsp;&nbsp;
+                    </a>
+                </li>
+                <li>
+                    <a  href="http://www.spriteapp.com/aboutus/joinus"  target="_blank">
+                        加入我们&nbsp;&nbsp;|&nbsp;&nbsp;
+                    </a>
+                </li>
+                <li>
+                    <a  href="http://www.spriteapp.com/aboutus?snav=contactus"  target="_blank">
+                        联系我们&nbsp;&nbsp;|&nbsp;&nbsp;
+                    </a>
+                </li>
+                <li>
+                    <a  href="{:C('siteurl')}/budejie/"  target="_blank">
+                        手机客户端&nbsp;&nbsp;|&nbsp;&nbsp;
+                    </a>
+                </li>
+                <li>
+                    <a  href="{:C('siteurl')}/mimi/"  target="_blank">
+                        不得姐的秘密&nbsp;&nbsp;|&nbsp;&nbsp;
+                    </a>
+                </li>
+                <li>
+                    精灵在线网络技术（北京）有限公司©2011|京公网安备11010802013498号
+                </li>
+            </ul>
+        </div>
+        <div  id="friendly-link">
+            <ul>
+                <li>友情链接：
+                    <a  href="http://www.hao123.com/"  target="_blank">
+                        hao123上网导航&nbsp;&nbsp;|&nbsp;&nbsp;
+                    </a>
+                </li>
+                <li>
+                    <a  href="http://hao.360.cn/"  target="_blank">
+                        360安全网址&nbsp;&nbsp;|&nbsp;&nbsp;
+                    </a>
+                </li>
+                <li>
+                    <a  href="http://123.sogou.com/"  target="_blank">
+                        搜狗网址导航&nbsp;&nbsp;|&nbsp;&nbsp;
+                    </a>
+                </li>
+                <li>
+                    <a  href="http://www.25pp.com/"  target="_blank">
+                        苹果游戏&nbsp;&nbsp;|&nbsp;&nbsp;
+                    </a>
+                </li>
+                <li>
+                    <a  href="http://www.51liucheng.com/"  target="_blank">
+                        柳橙留学&nbsp;&nbsp;|&nbsp;&nbsp;
+                    </a>
+                </li>
+                <li>
+                    <a  href="http://niming.me/"  target="_blank">
+                        匿名&nbsp;&nbsp;|&nbsp;&nbsp;
+                    </a>
+                </li>
+                <li>
+                    <a  href="http://niming.me/"  target="_blank">
+                        秘密
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+
+<script>
+
+    jQuery(document).ready(function($) {
+
+        jQuery.each(jQuery('.jp-jplayer'), function(i, it) {
+            var flag = 0;
+
+            jQuery(it).jPlayer({
+                swfPath: g_jp_url + "/ws/www/js",
+                supplied: "mp3",
+                wmode: "window",
+                smoothPlayBar: false,
+                keyEnabled: true,
+                cssSelectorAncestor: "#jp_container_" + jQuery(this).attr('data-id'),
+
+                ready: function () {
+                    jQuery(this).jPlayer("setMedia", {
+                        mp3: $.base64.atob(jQuery(this).attr("data-src"))
+                    });
+
+                    jQuery(this).next().children('.jp-type-single').hide();
+                    jQuery(this).next().children('.jp-controls').css('left','180px');
+                    var this_=	jQuery(this);
+                    jQuery(this).prev('p').children('a').click(function (){
+                        if(this_.next().children('ul').children('li').children('.jp-pause').is(':visible')){
+
+                            this_.next().children('ul').children('li').children('.jp-pause').click()
+
+                        }else{
+
+                            this_.next().children('ul').children('li').children('.jp-play').click();
+                        }
+                        return false;
+                    });
+
+                    if (is_ie()) {
+                        var vt = jQuery(this).attr('data-vtime');
+                        jQuery('#st_' + jQuery(this).attr('data-id')).text(fmt_voice_time(vt-1));
+                    }
+                },
+
+                play: function() { // To avoid multiple jPlayers playing together.
+                    jQuery(this).jPlayer("pauseOthers");
+                    jQuery(this).next().children('.jp-type-single').show();
+                    jQuery(this).next().children('.jp-controls').css('left','0px').parent().css('margin-bottom','-50px');
+                    jQuery(this).next().find('.show_time').hide();
+
+                    if (flag == 0) {
+                        var userid= $(it).attr('userid');
+                        var pid = $(it).attr('data-id');
+
+                        $.getJSON('http://api.budejie.com/api/api_open.php?c=voice&a=stat&pid='+ pid +'&userid='+ userid +'&flag=1&callback=?', function(data) {
+                            if (data['code'] == 0) {
+                                var pc = parseInt($('#play_count_' + pid).text());
+                                $('#play_count_' + pid).text(++pc);
+                            }
+                        });
+                    }
+
+                    flag = 1;
+                },
+
+                ended: function (){
+                    flag = 0;
+                    jQuery(this).next().children('.jp-type-single').hide();
+                    jQuery(this).next().children('.jp-controls').css('left','170px').parent().css('margin-bottom','0px');
+                    jQuery(this).next().find('.show_time').show();
+                }
+            });
+
+        });
+
+    });
+
+
+    //提示用户没有穿越数据
+    //右侧滚动广告
+    right_ad_float();
+
+    //分享功能
+    content_shareing(140);
+</script>
+
+
+<script  src="./百思不得姐官网-搞笑图片,内涵段子,漫画,冷笑话,色系军团,成人笑话分享社区_files/sdk.js"></script>
+<script>jQuery.noConflict();</script>
+<script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+            m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','http://www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-41454169-1', 'budejie.com');
+    ga('send', 'pageview');
+
+    //回顶按钮
+    (function($){
+        back_to_top();
+        $(window).scroll(back_to_top);
+        function back_to_top(){
+            var $top     = $(window).scrollTop();
+
+            if($top > 500){
+                $('#ued_gotop').show();
+            }else{
+                $('#ued_gotop').hide();
+            }
+        }
+    })(jQuery)
+</script>
+</body></html>

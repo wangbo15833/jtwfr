@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="/<?php echo TMPL_PATH ?>bootstrap/css/bootstrap.min.css">
+    <script src="/<?php echo TMPL_PATH ?>bootstrap/js/jquery-1.9.1.min.js"></script>
+    <title></title>
+</head>
+<body>
+    <form method="post" enctype="multipart/form-data" action="tougao/tougao">
+        <span>上传图片：</span>
+
+        <input class="span3" type="file" name="picurl" id="photoshow" value="选择图片...">
+
+
+        <span>图片描述：</span>
+        <textarea id="postbody" name="description" onkeyup="checkPost();" onfocus="hideTips();" onblur="showTips();" maxlength="140" style="width: 476px; margin-left: 20px; color: rgb(183, 183, 183);"></textarea>
+        <img src='__APP__/Public/verify/' />
+        <input type="text" name="verify">
+        <input class="btn" type="submit"  name="publish" value="发布">
+    </form>
+</body>
+</html>

@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="utf-8">
+    <title>{:C('sitename')}</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="{:C('description')}">
+    <meta name="author" content="">
+
+    <!-- Le styles -->
+    <link href="/{:TMPL_PATH}bootstrap/assets/css/bootstrap.css" rel="stylesheet">
+    <style type="text/css">
+        body {
+            padding-top: 60px;
+            padding-bottom: 40px;
+        }
+        .sidebar-nav {
+            padding: 9px 0;
+        }
+
+        @media (max-width: 980px) {
+            /* Enable use of floated navbar text */
+            .navbar-text.pull-right {
+                float: none;
+                padding-left: 5px;
+                padding-right: 5px;
+            }
+        }
+    </style>
+
+
+    <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
+    <!--[if lt IE 9]>
+    <script src="/{:TMPL_PATH}bootstrap/assets/js/html5shiv.js"></script>
+    <![endif]-->
+
+    <!-- Fav and touch icons -->
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="/{:TMPL_PATH}bootstrap/assets/ico/apple-touch-icon-144-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="/{:TMPL_PATH}bootstrap/assets/ico/apple-touch-icon-114-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="/{:TMPL_PATH}bootstrap/assets/ico/apple-touch-icon-72-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" href="/{:TMPL_PATH}bootstrap/assets/ico/apple-touch-icon-57-precomposed.png">
+    <link rel="shortcut icon" href="/{:TMPL_PATH}bootstrap/assets/ico/favicon.png">
+</head>
+
+<body>
+
+<include file="./UI/Home/header1.html" />
+
+<div class="container">
+    <div class="row">
+        <div class="span8">
+            <form class="form-horizontal" method="post" enctype="multipart/form-data" action="Tougao/tougao">
+                <div class="control-group">
+                    <label class="control-label" for="inputImage">上传图片</label>
+                    <div class="controls">
+                        <input type="file" name="picurl" placeholder="上传图片">
+                    </div>
+                </div>
+
+                <div class="control-group">
+                    <label class="control-label" for="inputDescription">图片描述</label>
+                    <div class="controls">
+                        <textarea name="description" maxlength="140" style="width:400px;height:100px;resize: none;" ></textarea>
+                    </div>
+                </div>
+
+                <div class="control-group">
+                    <label class="control-label" for="inputDescription">验证码</label>
+                    <div class="controls">
+                        <input type="text" name="verify">
+                        <img src='__APP__/Public/verify/' onclick="this.src='__APP__/Public/verify/'"/>
+                    </div>
+                </div>
+
+                <div class="control-group">
+                    <button type="submit" class="btn">发布</button>
+                </div>
+            </form>
+
+            投稿须知：
+            <ol>
+                <li>自己的或听过的糗事、真实有笑点，不含政治、色情、广告、个人隐私、歧视等内容。</li>
+                <li>糗事经过审核后发表。</li>
+                <li>转载请注明出处。</li>
+                <li>内容版权归百思不得姐网站所有。</li>
+            </ol>
+
+
+
+        </div><!--/span-->
+
+        <div class="span4">
+            <div class="well">
+                <p><img src="{:APP_TMPL_PATH}images/t_code.jpg" class="img-rounded"></p>
+                <p>扫描二维码，下载APP</p>
+            </div><!--/.well -->
+
+            <div class="well">
+                广告位
+            </div>
+
+            <div class="well clearfix">
+                <div style="width:100px;float:left;">
+                    <p><img src="{:APP_TMPL_PATH}images/t_code.jpg" class="img-rounded"></p>
+                    <p>关注交通违法人微信账号</p>
+                </div>
+                <div style="width:150px;float:right;">
+                    <ul>
+                        <li>关注</li>
+                        <li>关注</li>
+                        <li>关注</li>
+                    </ul>
+                </div>
+            </div>
+
+        </div><!--/span-->
+
+    </div><!--/row-->
+
+    <hr>
+
+    <include file="./UI/Home/footer1.html" />
+
+</div><!--/.fluid-container-->
+
+<!-- Le javascript
+================================================== -->
+<!-- Placed at the end of the document so the pages load faster -->
+<script src="/{:TMPL_PATH}bootstrap/assets/js/jquery.js"></script>
+<script src="/{:TMPL_PATH}bootstrap/assets/js/bootstrap-transition.js"></script>
+<script src="/{:TMPL_PATH}bootstrap/assets/js/bootstrap-alert.js"></script>
+<script src="/{:TMPL_PATH}bootstrap/assets/js/bootstrap-modal.js"></script>
+<script src="/{:TMPL_PATH}bootstrap/assets/js/bootstrap-dropdown.js"></script>
+<script src="/{:TMPL_PATH}bootstrap/assets/js/bootstrap-scrollspy.js"></script>
+<script src="/{:TMPL_PATH}bootstrap/assets/js/bootstrap-tab.js"></script>
+<script src="/{:TMPL_PATH}bootstrap/assets/js/bootstrap-tooltip.js"></script>
+<script src="/{:TMPL_PATH}bootstrap/assets/js/bootstrap-popover.js"></script>
+<script src="/{:TMPL_PATH}bootstrap/assets/js/bootstrap-button.js"></script>
+<script src="/{:TMPL_PATH}bootstrap/assets/js/bootstrap-collapse.js"></script>
+<script src="/{:TMPL_PATH}bootstrap/assets/js/bootstrap-carousel.js"></script>
+<script src="/{:TMPL_PATH}bootstrap/assets/js/bootstrap-typeahead.js"></script>
+
+<script type="text/javascript">
+    window.onload=function(){
+        //获取导航a集合
+        var myNav = document.getElementById("nav").getElementsByTagName("a");
+        for(var i=0;i<myNav.length;i++){
+            var links=myNav[i].getAttribute("href");//取得a的链接地址
+            var myURL=document.location.href;//取得当前浏览器地址栏的链接地址
+            if(myURL.indexOf(links)!=-1){myNav[i].parentNode.className="active";
+            }
+        }
+    }
+</script>
+</body>
+</html>

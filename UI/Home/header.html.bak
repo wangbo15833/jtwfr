@@ -1,0 +1,44 @@
+<div  class="web_logo"  style=" background-color:#AC2718;">
+    <div  class="web_nav">
+        <p><a  href="{:C('siteurl')}/"  title="交通违法人"><img  src="<?php echo APP_TMPL_PATH ?>images/logo.png"></a></p>
+
+        <div  id="budejie_nav">
+            <ul>
+                <li  class="budejie_nav_select">
+                    <a  href="{:C('siteurl')}/"  class="current">首页</a>
+                </li>
+
+                <li  class="budejie_nav_select">
+                    <a  href="{:C('siteurl')}/down/">应用下载</a>
+                </li>
+            </ul>
+        </div>
+        <div  id="post_audit">
+            <ul>
+                <li><a  href="{:C('siteurl')}/index.php/tougao"  id="post_au">发帖</a></li>
+                <li><a  href="{:C('siteurl')}/###"  id="shentie">审核</a></li>
+            </ul>
+        </div>
+
+        <?php
+            if(session('?user')){
+                $user=session('user');
+
+            ?>
+        <div id="login_block_user">
+            <?php echo $user['username']; ?><a  href="__APP__/User/logout" class="info-link login" rel="nofollow">退出</a>
+        </div>
+        <?php
+        }
+            else{
+            ?>
+        <div  id="login_block">
+            <ul>
+                <li  id="login"><a href="__APP__/User/login">登录</a></li>
+                <li  id="joinus"><a href="__APP__/User/register">注册</a></li>
+            </ul>
+        </div>
+        <?php } ?>
+
+    </div>
+</div>
